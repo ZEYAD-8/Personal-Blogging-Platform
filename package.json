@@ -1,0 +1,30 @@
+{
+  "name": "personal-blogging-platform",
+  "version": "1.0.0",
+  "description": "A Restful api for a blogging platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env dist/server.js",
+    "build": "tsc --project tsconfig.json",
+    "typecheck": "tsc --noEmit --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZEYAD-8/Personal-Blogging-Platform.git"
+  },
+  "author": "Zeyad Elnaggar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZEYAD-8/Personal-Blogging-Platform/issues"
+  },
+  "homepage": "https://github.com/ZEYAD-8/Personal-Blogging-Platform#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
